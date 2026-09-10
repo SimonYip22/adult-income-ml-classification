@@ -1,4 +1,4 @@
-# Adult Census Mixed-Data Classification
+# Adult Census Income Classification
 
 End-to-end scikit-learn classification project using the Adult Census Income dataset to predict whether recorded annual income exceeds $50K from demographic and employment-related features.
 

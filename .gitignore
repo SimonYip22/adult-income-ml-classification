@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+PROJECT_PLAN.md
+
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store

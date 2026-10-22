@@ -296,7 +296,7 @@ The final balanced accuracy of `0.776` closely matches the tuned CV estimate of 
 
 ### Confusion matrix
 
-![Final Random Forest confusion matrix](confusion_matrix.png)
+![Final Random Forest confusion matrix](docs/confusion_matrix.png)
 
 The test-set confusion matrix contains:
 
@@ -439,18 +439,17 @@ The project produced five main findings:
 
 ```text
 adult-income-classification/
-├── README.md
-├── PROJECT_PLAN.md
 ├── adult_income_workflow.ipynb
-├── confusion_matrix.png
+├── docs/
+│   └── confusion_matrix.png
+├── README.md
 ├── requirements.txt
 └── .gitignore
 ```
 
-- `README.md` — project overview, methodology, results, interpretation, and limitations.
-- `PROJECT_PLAN.md` — original implementation plan, learning objectives, and explicit project scope.
 - `adult_income_workflow.ipynb` — complete data inspection, preprocessing, modelling, tuning, evaluation, error analysis, and subgroup analysis.
 - `confusion_matrix.png` — final tuned Random Forest confusion matrix on the held-out test set.
+- `README.md` — project overview, methodology, results, interpretation, and limitations.
 - `requirements.txt` — Python dependencies.
 - `.gitignore` — excluded local and generated files.
 
